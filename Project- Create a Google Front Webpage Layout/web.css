@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+nav, footer {
+    flex-shrink: 0;
+}
+
+section {
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 2px;
+    background: rgb(190, 9, 226);
+    color: white;
+    list-style: none;
+    margin-right: 1rem;
+    align-items: end;
+} 
+#logo {
+    width: 100vw;
+    height: 50px;
+    background: rgb(82, 54, 83);
+}
+.layer {
+    padding: 10px 5px;
+    border-bottom: 2px solid gray;
+    background: rgb(15, 14, 14);
+    width: 100%;
+    color: rgb(236, 238, 229);
+}
